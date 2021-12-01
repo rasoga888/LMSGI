@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 200px;
+    display: flex;
+    border: 2px solid black;
+    flex-flow: row wrap;
+}
+header #contacto{
+    height: 30%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+header #contacto a{
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+header #contacto a:nth-child(1){
+    margin-left: 10px;
+    background-color: chartreuse;
+
+}
+
+header #sociales{
+    height: 30%;
+    width: 20%;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header #sociales a{
+    color: black;
+    font-size: 20px;
+
+}
+header figure{
+    height: 70%;
+    background-color: black;
+    width: 15%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+
+
+}
+header figure img{
+    height: 60%;
+    margin-top: 25px;
+
+}
+
+
